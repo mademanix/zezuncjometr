@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0 0;
+    grid-auto-flow: row;
+    grid-template-areas:
+    ". info ."
+    ". zezuncjoinput ."
+    ". . .";
+}
+
+.info {
+    grid-area: info;
+    text-align: center;
+}
+
+.zezuncjoinput {
+    display: flex;
+    flex-direction: column;
+    grid-area: zezuncjoinput;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.zezuncjoinput label {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.zezuncjoinput input {
+    border: none;
+    border-bottom: solid #E1BA57 1px;
+    font-size: 25px;
+    height: 40px;
+    padding: 5px;
+    width: 500px;
+}
+
+.zezuncjoinput input:focus-visible {
+    border: none;
+    border-bottom: solid #cda000 1px;
+    outline: none !important;
+}
+
