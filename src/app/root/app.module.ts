@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import {ZezuncjometrModule} from "../zezuncjometr/zezuncjometr.module";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import {ZezuncjometrModule} from "../zezuncjometr/zezuncjometr.module";
   ],
   imports: [
     BrowserModule,
-    ZezuncjometrModule
+    ZezuncjometrModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
