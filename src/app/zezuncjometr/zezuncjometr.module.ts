@@ -2,13 +2,13 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {ZezuncjometrForm} from './form/form.component';
 import {ZezuncjometrEngineComponent} from './engine/engine.component';
-import { LodaerComponent } from './loader/lodaer/lodaer.component';
+import { LoaderComponent } from './loader/loader.component';
 import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 
 const ZEZUNCJOMETR_COMPONENTS = [
     ZezuncjometrForm,
     ZezuncjometrEngineComponent,
-    LodaerComponent
+    LoaderComponent
 ];
 
 @NgModule({

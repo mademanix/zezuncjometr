@@ -1,0 +1,8 @@
+.loader {
+    background: deepskyblue;
+    margin: 0 auto;
+}
+
+.mat-spinner circle {
+    stroke: #E1BA57 !important;
+}
